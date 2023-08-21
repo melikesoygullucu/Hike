@@ -11,6 +11,8 @@
 		0B9D98E42A93E3140099D184 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9D98E32A93E3140099D184 /* ContentView.swift */; };
 		0B9D98E62A93E3150099D184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B9D98E52A93E3150099D184 /* Assets.xcassets */; };
 		0B9D98E92A93E3150099D184 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B9D98E82A93E3150099D184 /* Preview Assets.xcassets */; };
+		0B9D98F02A93E3710099D184 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9D98EF2A93E3710099D184 /* CardView.swift */; };
+		0B9D98F32A93E5530099D184 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9D98F22A93E5530099D184 /* CustomBackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0B9D98E32A93E3140099D184 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0B9D98E52A93E3150099D184 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B9D98E82A93E3150099D184 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B9D98EF2A93E3710099D184 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		0B9D98F22A93E5530099D184 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 				0B9D98E32A93E3140099D184 /* ContentView.swift */,
 				0B9D98E52A93E3150099D184 /* Assets.xcassets */,
 				0B9D98E72A93E3150099D184 /* Preview Content */,
+				0B9D98F12A93E4950099D184 /* Component */,
 			);
 			path = Hike;
 			sourceTree = "<group>";
@@ -65,6 +70,15 @@
 				0B9D98E82A93E3150099D184 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0B9D98F12A93E4950099D184 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				0B9D98EF2A93E3710099D184 /* CardView.swift */,
+				0B9D98F22A93E5530099D184 /* CustomBackgroundView.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B9D98E42A93E3140099D184 /* ContentView.swift in Sources */,
+				0B9D98F02A93E3710099D184 /* CardView.swift in Sources */,
 				0B9D98E22A93E3140099D184 /* HikeApp.swift in Sources */,
+				0B9D98F32A93E5530099D184 /* CustomBackgroundView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
