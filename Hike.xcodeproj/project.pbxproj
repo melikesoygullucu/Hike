@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0B619A5D2A94A15B008E9EA4 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B619A5C2A94A15B008E9EA4 /* CustomButtonView.swift */; };
 		0B619A5F2A94C226008E9EA4 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B619A5E2A94C226008E9EA4 /* GradientButtonStyle.swift */; };
+		0B619A612A94CEF6008E9EA4 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B619A602A94CEF6008E9EA4 /* CustomCircleView.swift */; };
+		0B619A632A94D8B1008E9EA4 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B619A622A94D8B1008E9EA4 /* MotionAnimationView.swift */; };
 		0B9D98E22A93E3140099D184 /* HikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9D98E12A93E3140099D184 /* HikeApp.swift */; };
 		0B9D98E42A93E3140099D184 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9D98E32A93E3140099D184 /* ContentView.swift */; };
 		0B9D98E62A93E3150099D184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B9D98E52A93E3150099D184 /* Assets.xcassets */; };
@@ -21,6 +23,8 @@
 /* Begin PBXFileReference section */
 		0B619A5C2A94A15B008E9EA4 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		0B619A5E2A94C226008E9EA4 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
+		0B619A602A94CEF6008E9EA4 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
+		0B619A622A94D8B1008E9EA4 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		0B9D98DE2A93E3140099D184 /* Hike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B9D98E12A93E3140099D184 /* HikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeApp.swift; sourceTree = "<group>"; };
 		0B9D98E32A93E3140099D184 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,12 +65,12 @@
 		0B9D98E02A93E3140099D184 /* Hike */ = {
 			isa = PBXGroup;
 			children = (
+				0B9D98F12A93E4950099D184 /* Component */,
 				0B9D98F42A93ECEE0099D184 /* Utility */,
 				0B9D98E12A93E3140099D184 /* HikeApp.swift */,
 				0B9D98E32A93E3140099D184 /* ContentView.swift */,
 				0B9D98E52A93E3150099D184 /* Assets.xcassets */,
 				0B9D98E72A93E3150099D184 /* Preview Content */,
-				0B9D98F12A93E4950099D184 /* Component */,
 			);
 			path = Hike;
 			sourceTree = "<group>";
@@ -85,6 +89,8 @@
 				0B9D98EF2A93E3710099D184 /* CardView.swift */,
 				0B9D98F22A93E5530099D184 /* CustomBackgroundView.swift */,
 				0B619A5C2A94A15B008E9EA4 /* CustomButtonView.swift */,
+				0B619A602A94CEF6008E9EA4 /* CustomCircleView.swift */,
+				0B619A622A94D8B1008E9EA4 /* MotionAnimationView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -169,10 +175,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B9D98E42A93E3140099D184 /* ContentView.swift in Sources */,
+				0B619A612A94CEF6008E9EA4 /* CustomCircleView.swift in Sources */,
 				0B9D98F02A93E3710099D184 /* CardView.swift in Sources */,
 				0B9D98E22A93E3140099D184 /* HikeApp.swift in Sources */,
 				0B619A5D2A94A15B008E9EA4 /* CustomButtonView.swift in Sources */,
 				0B619A5F2A94C226008E9EA4 /* GradientButtonStyle.swift in Sources */,
+				0B619A632A94D8B1008E9EA4 /* MotionAnimationView.swift in Sources */,
 				0B9D98F32A93E5530099D184 /* CustomBackgroundView.swift in Sources */,
 				0B9D98F62A93ED110099D184 /* ColorExtension.swift in Sources */,
 			);
