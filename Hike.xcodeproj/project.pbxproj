@@ -19,6 +19,7 @@
 		0B9D98F02A93E3710099D184 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9D98EF2A93E3710099D184 /* CardView.swift */; };
 		0B9D98F32A93E5530099D184 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9D98F22A93E5530099D184 /* CustomBackgroundView.swift */; };
 		0B9D98F62A93ED110099D184 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9D98F52A93ED110099D184 /* ColorExtension.swift */; };
+		0BE8913B2A961E2000F88E44 /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8913A2A961E2000F88E44 /* CustomListRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		0B9D98EF2A93E3710099D184 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		0B9D98F22A93E5530099D184 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		0B9D98F52A93ED110099D184 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		0BE8913A2A961E2000F88E44 /* CustomListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				0B619A5C2A94A15B008E9EA4 /* CustomButtonView.swift */,
 				0B619A602A94CEF6008E9EA4 /* CustomCircleView.swift */,
 				0B619A622A94D8B1008E9EA4 /* MotionAnimationView.swift */,
+				0BE8913A2A961E2000F88E44 /* CustomListRowView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			files = (
 				0B9D98E42A93E3140099D184 /* ContentView.swift in Sources */,
 				0B619A612A94CEF6008E9EA4 /* CustomCircleView.swift in Sources */,
+				0BE8913B2A961E2000F88E44 /* CustomListRowView.swift in Sources */,
 				0B9D98F02A93E3710099D184 /* CardView.swift in Sources */,
 				0B9D98E22A93E3140099D184 /* HikeApp.swift in Sources */,
 				0B619A5D2A94A15B008E9EA4 /* CustomButtonView.swift in Sources */,
